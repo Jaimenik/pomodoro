@@ -1,0 +1,62 @@
+# Pomodoro Timer (Work in Progress)
+
+This is a Pomodoro timer project focused on a modern, customizable, and responsive interface. The visual part is mostly complete, but the full timer functionality is still under development.
+
+---
+
+## Current Status
+
+- Complete graphical interface with Pomodoro, short break, and long break modes  
+- Time, color, and font settings available through a settings panel  
+- Responsive design that works well on both mobile and desktop devices  
+- Basic timer with animations (limited or pending full functionality)  
+
+---
+
+## Technologies Used
+
+- HTML5  
+- CSS3 (Flexbox, animations, media queries)  
+- JavaScript (DOM manipulation, events, class handling)  
+
+---
+
+## Next Steps / Pending Features
+
+- Implement full timer logic and state management  
+- Add sounds and notifications  
+- Save settings in localStorage  
+- Improve accessibility and cross-browser compatibility  
+
+---
+
+## How to Try It Out
+
+1. Clone or download the repository  
+2. Open `index.html` in any modern browser  
+3. Explore the interface and settings (note: the timer might not be fully functional yet)  
+
+---
+
+## Project Structure
+
+/index.html
+/styles.css
+/scripts/
+popup.js
+arrows.js
+timer.js
+
+
+---
+
+## Author
+
+Jaime
+
+- GitHub: [https://github.com/Jaimenik](https://github.com/Jaimenik)  
+- LinkedIn: [https://www.linkedin.com/in/jaime-nikolaevich-pujol-pascual-1527b4362](https://www.linkedin.com/in/jaime-nikolaevich-pujol-pascual-1527b4362)  
+- MyPortfolio: [https://jaimenik.com](https://jaimenik.com)  
+
+
+
