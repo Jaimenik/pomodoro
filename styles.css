@@ -49,7 +49,7 @@ h1{
     left: 0;
     height: 100%;
     width: 0;
-    background-color: #F87070; /* un rojo más oscuro para el relleno */
+    background-color: #F87070; 
     border-radius: 50px;
     z-index: -1;
     transition: width 0.4s ease;
@@ -64,10 +64,10 @@ h1{
 }
 
 .elipse {
-  width: 80vw;       /* 80% del ancho viewport */
-  max-width: 500px;  /* no más grande que 500px */
+  width: 80vw;      
+  max-width: 500px;  
   height: 80vw;
-  max-height: 500px; /* mantiene forma cuadrada */
+  max-height: 500px; 
   
   background-color: #151932;
   border-radius: 50%;
@@ -95,7 +95,7 @@ h1{
 }
 
 .elipse::before {
-  width: 70vw;       /* también relativo */
+  width: 70vw;       
   max-width: 420px;
   height: 70vw;
   max-height: 420px;
@@ -108,7 +108,7 @@ h1{
 }
 
 
-/* Hace que el fondo interno esté encima de la animación */
+
 .elipse > * {
   z-index: 1;
   position: relative;
@@ -120,15 +120,15 @@ h1{
   color: #DCE0FC;
   font-weight: bold;
   font-family: "Space Mono", monospace;
-  user-select: none; /* para que no se pueda seleccionar el texto */
+  user-select: none; 
 }
 
 .pause {
-  margin-top: 10px;             /* separación del contador */
+  margin-top: 10px;             
   font-size: 20px;
   color: #DCE0FC;
   font-family: "Space Mono", monospace;
-  text-transform: uppercase;    /* opcional: para que se vea en mayúsculas */
+  text-transform: uppercase;   
   user-select: none;
   cursor: pointer;
   letter-spacing: 1em;
@@ -146,24 +146,23 @@ h1{
 
 .popup {
   display: none;
- /* Para evitar clics cuando está oculto */
   position: fixed;
   left: 32%;
-  width: 35vw; /* 50% del ancho de la ventana */
-  height: 60vh; /* 50% del alto de la ventana */
-  background-color: white; /* Fondo oscuro semitransparente */
+  width: 35vw;
+  height: 60vh; 
+  background-color: white;
   z-index: 10;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
 }
 
-/* Mostrar el popup */
+
 .popup.show {
   display: flex;
 }
 
-/* Animación estilo Windows */
+
 @keyframes popupAnimation {
   0% {
     transform: scale(0.8) translateY(30px);
@@ -339,11 +338,11 @@ h2{
 .red, .blue, .purple {
   width: 40px;
   height: 40px;
-  border-radius: 50%; /* hace que sea un círculo */
+  border-radius: 50%;
   cursor: pointer;
 }
 
-/* Estilos opcionales para distinguir las fuentes (colores de fondo distintos) */
+
 .font1 {
   background-color: #EEF1FA;
   font-family: "Space Mono", monospace;
@@ -365,11 +364,11 @@ h2{
   align-items: center;
   font-weight: 700;
   font-size: 18px;
-  color: #1E2140; /* texto oscuro para contraste */
+  color: #1E2140; 
   user-select: none;
 }
 
-/* Colores de los botones circulares */
+
 .red {
   background-color: #F87070;
 }
@@ -382,7 +381,6 @@ h2{
   background-color: #D881F8;
 }
 
-/* Media Queries para pantallas pequeñas */
 
 @media (max-width: 600px) {
   .elipse {

@@ -3,7 +3,7 @@ function togglePopup() {
     
     popup.classList.add('show');
 
-    void popup.offsetWidth; // fuerza reflow
+    void popup.offsetWidth; 
     popup.classList.add('animate-popup');
 }
 
